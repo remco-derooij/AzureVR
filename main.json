@@ -5,7 +5,7 @@
     "_generator": {
       "name": "bicep",
       "version": "0.13.1.58284",
-      "templateHash": "15848401924441119496"
+      "templateHash": "6341109239055810042"
     }
   },
   "parameters": {
@@ -48,10 +48,8 @@
     },
     "vmSize": {
       "type": "string",
-      "defaultValue": "Standard_NC6_Promo",
+      "defaultValue": "Standard_NV6_Promo",
       "allowedValues": [
-        "Standard_NC6_Promo",
-        "Standard_NC6",
         "Standard_NV6_Promo",
         "Standard_NV6"
       ],

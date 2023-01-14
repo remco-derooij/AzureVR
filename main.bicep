@@ -1,7 +1,6 @@
 @description('Username for the Virtual Machine.')
 param AdminUser string = 'VRUser'
 
-
 @description('Password for the Virtual Machine.')
 @secure()
 param AdminPassword string
@@ -22,12 +21,10 @@ param icmprule string = 'Allow'
 
 @description('VMSize for VM.')
 @allowed([
-  'Standard_NC6_Promo'
-  'Standard_NC6'
   'Standard_NV6_Promo'
   'Standard_NV6'
 ])
-param vmSize string = 'Standard_NC6_Promo'
+param vmSize string = 'Standard_NV6_Promo'
 
 
 @description('Computername for VM.')
